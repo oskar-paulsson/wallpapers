@@ -12,7 +12,7 @@ echo Running image sorter script...
 
 # mv $1 $RES/$
 
-for FILE in *;
+for FILE in wallpapers/*;
 do
     echo $FILE
     GEO=$(identify -verbose $FILE | grep "geometry")
